@@ -1,8 +1,8 @@
-# **Thelvy Studio (Зэ Айви)** 🚀
+# **the iVy Studio (Зэ Айви)** 🚀
 
-> **[RU]** Добро пожаловать в официальную организацию GitHub студии **Thelvy Studio**! Мы занимаемся разработкой программного обеспечения, веб-решений и систем автоматизации для бизнеса и медиа-сферы. На данный момент студия находится **в стадии активной разработки** и подготовки к запуску.
+> **[RU]** Добро пожаловать в официальную организацию GitHub студии **the iVy Studio**! Мы занимаемся разработкой программного обеспечения, веб-решений и систем автоматизации для бизнеса и медиа-сферы. На данный момент студия находится **в стадии активной разработки** и подготовки к запуску.
 >
-> **[EN]** Welcome to the official GitHub organization of **Thelvy Studio**! We develop software, web solutions, and automation systems for business and media. Currently, the studio is **under active development** and preparing for launch.
+> **[EN]** Welcome to the official GitHub organization of **the iVy Studio**! We develop software, web solutions, and automation systems for business and media. Currently, the studio is **under active development** and preparing for launch.
 
 ---
 
@@ -32,5 +32,5 @@
 
 ---
 <p align="center">
-  <i>Thelvy Studio © 2026. Код, который упрощает ваш бизнес. / Code that simplifies your business.</i>
+  <i>the iVy Studio © 2026. Код, который упрощает ваш бизнес. / Code that simplifies your business.</i>
 </p>

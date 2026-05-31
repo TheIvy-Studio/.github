@@ -1,0 +1,41 @@
+name: Discord Commits Alert
+
+on: [push]
+
+jobs:
+  discord-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          
+          FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | sed 's/^/- /')
+          
+          if [ -z "$FILES" ]; then
+            FILES="- Нет измененных файлов"
+          fi
+          
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Send Message to Discord
+        uses: appleboy/discord-action@master
+        with:
+          webhook_id: ${{ secrets.DISCORD_WEBHOOK_ID }}
+          webhook_token: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
+          message: |
+            ⚙️ **[TheIvy-Web] Новый пуш в ветку!**
+            **Автор:** ${{ github.actor }}
+            **Коммит:** ${{ github.event.head_commit.message }}
+            
+            # **CHANGES**
+            ```markdown
+            ${{ steps.changed-files.outputs.files }}
+            ```

@@ -1,36 +1,97 @@
-# the iVy Studio (Зэ Айви)
+# the iVy Studio
 
-[theivy.dev](https://theivy.dev) | [theivy.ru](https://theivy.ru) | <hello@theivy.ru>
+### *(произносится «Зэ Айви»)*
 
-Добро пожаловать в репозиторий GitHub-организации the iVy Studio. Мы занимаемся проектированием и разработкой программного обеспечения, веб-сервисов и систем автоматизации для бизнеса, игровых проектов и медиа-сферы. Сейчас студия находится в процессе подготовки к запуску, мы активно пишем код и формируем первые публичные релизы.
+> **IDEA. CODE. RESULT.**
 
-Welcome to the official GitHub organization of the iVy Studio. We build software, web solutions, and automation systems for businesses, gaming projects, and media platforms. The studio is currently gearing up for launch, and we are actively working on our initial releases.
-
----
-
-## Направления разработки / Focus Areas
-
-* **Bots (Telegram & Discord):** Разработка кастомных решений под ключ и создание модульных систем для управления сообществами.
-* **Web Development:** Проектирование быстрых, отзывчивых и масштабируемых сайтов и веб-приложений.
-* **Applications:** Создание кроссплатформенного софта для мобильных платформ и десктопа.
-* **Business Software:** Специализированный софт для оптимизации внутренних процессов, управления проектами, игровыми серверами или медиаресурсами.
+[theivy.dev](https://theivy.dev) • [theivy.ru](https://theivy.ru) • <hello@theivy.ru>
 
 ---
 
-## География работы / Supported Regions
+We build software that solves real business problems.
 
-Наши решения спроектированы с учетом сетевой специфики и стабильно работают в следующих регионах:
-* 🇷🇺 Россия (Russia)
-* 🇪🇺 Европа (Europe)
+the iVy Studio develops websites, web applications, desktop software, and Telegram & Discord bots. Every product is engineered for performance, scalability, and long-term maintainability.
 
----
-
-## Подход к разработке / Engineering Approach
-
-Мы ориентируемся на производительность, модульную архитектуру и независимость от базовых ограничений сторонних платформ. Например, для Discord-интеграций мы пишем собственные permission-системы на базе БД с кастомными декораторами и сквозной обработкой ошибок вместо использования стандартных шаблонов.
-
-We focus on high performance, modular architecture, and bypassing standard platform limitations. For instance, our Discord integrations rely on custom database-driven permission systems featuring global error handling and decorators.
+Разрабатываем сайты, веб-приложения, приложения для Windows и Linux, а также Telegram и Discord ботов. Создаем быстрые и современные цифровые продукты, которые помогают бизнесу работать эффективнее. Без конструкторов. Только собственная разработка.
 
 ---
 
-the iVy Studio © 2026. Код, который упрощает процессы. / Code that streamlines your workflow.
+## 01 / SERVICES
+
+- Websites
+- Web Applications
+- Desktop Applications
+- Telegram Bots
+- Discord Bots
+- Business Automation
+- API & CRM Integrations
+- Payment Systems
+
+---
+
+## 02 / STACK
+
+### Languages
+
+- Rust
+- TypeScript
+- Python
+
+### Frontend
+
+- Astro
+- Vite
+- Vue
+- Tailwind CSS
+
+### Backend
+
+- Node.js
+- FastAPI
+
+### Databases
+
+- PostgreSQL
+- MySQL
+- SQLite
+- Redis
+- Tarantool
+
+### Infrastructure
+
+- Docker
+- Nginx
+- Linux
+- GitHub Actions
+
+---
+
+## 03 / ENGINEERING
+
+We start with understanding the problem, not writing code.
+
+Every project begins with analysis, architecture, and technology selection based on real requirements rather than trends.
+
+Our goal is to build software that is fast, reliable, easy to evolve, and comfortable to maintain for years.
+
+Transparency is part of the process — clients always have access to repositories, tasks, and development progress.
+
+---
+
+## 04 / CONTACT
+
+Website  
+https://theivy.dev
+
+Email  
+hello@theivy.ru
+
+---
+
+<div align="center">
+
+**the iVy Studio**
+
+*Idea. Code. Result.*
+
+</div>
